@@ -1,0 +1,8 @@
+{
+  "name": "ecoonline/php-styles",
+  "description": "EcoOnlines shared PHP style rules for PHP-CS-Fixer",
+  "license": "proprietary",
+  "require": {
+    "friendsofphp/php-cs-fixer": "^3"
+  }
+}
