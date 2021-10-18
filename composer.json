@@ -1,7 +1,7 @@
 {
-  "name": "ecoonline/php-styles",
-  "description": "EcoOnlines shared PHP style rules for PHP-CS-Fixer",
-  "license": "proprietary",
+  "name": "ecoonline/code-reviewer",
+  "description": "The package that makes sure you commit good looking, and working, code using php-cs-fixer and Larastan",
+  "license": "MIT",
   "require": {
     "friendsofphp/php-cs-fixer": "^3"
   }
