@@ -63,9 +63,9 @@ Any repository owner can add their repositories to the main whitelist file.
 Follow the same syntax as the previous entries. 
 
 #### GitHub URL
-Take this highlighted part from the URL: ~~github.com/~~**EcoOnline/php-styles**
+Take this highlighted part from the URL: ~~github.com/~~**EcoOnline/code-reviewer**
 
 #### Git CLI
 Run `git remote -v`
 
-Take this highlighted part: ~~origin  git@github.com:~~**EcoOnline/php-styles**~~.git~~
+Take this highlighted part: ~~origin  git@github.com:~~**EcoOnline/code-reviewer**~~.git~~

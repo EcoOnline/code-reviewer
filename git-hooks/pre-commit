@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # This value is set by install.sh
-ROOT_CONFIG="/Users/jorgen.solli/Git/php-styles"
+ROOT_CONFIG=""
 
 WHITELIST="$ROOT_CONFIG/whitelist"
 WHITELIST_CUSTOM="$ROOT_CONFIG/whitelist.dist"
