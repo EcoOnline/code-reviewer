@@ -4,5 +4,9 @@
   "license": "MIT",
   "require": {
     "friendsofphp/php-cs-fixer": "^3"
+  },
+  "scripts": {
+    "post-update-cmd": "./install.sh",
+    "post-install-cmd": "./install.sh"
   }
 }
