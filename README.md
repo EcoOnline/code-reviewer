@@ -9,16 +9,43 @@ It will only run when committing code in repositories that are either listed in 
 
 ## Install
 
+### Globally (Suggested)
+
+```
+composer global require ecoonline/code-reviewer
+```
+
+Make sure your global vendor binaries directory is in your $PATH environment variable.
+Read more [here](https://getcomposer.org/doc/03-cli.md#global)
+
+In short:
+
+
+```shell
+# Get the Composer bin path
+composer global config bin-dir --absolute
+
+# Copy the returned value and add it to a new line in this file
+sudo vi /etc/paths
+```
+
+Run the installer
+```shell
+code-reviewer
+```
+
+### Locally
+
 ```shell
 # Clone the repo to your user folder. This is not required, but because the path to this
 # location is stored in your pre-commit file, it cannot change with time.
-cd ~/ && git clone git@github.com:EcoOnline/php-styles.git
+cd ~/ && git clone git@github.com:EcoOnline/code-reviewer.git
  
 # Install php-cs-fixer
 composer install
 
-# Activate php-cs-fixer
-./install.sh
+# Run the installer
+./code-reviewer
 ```
 
 ## Whitelist
