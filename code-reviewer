@@ -12,7 +12,7 @@ SCRIPT_LOCATION="$(ls -l $SCRIPT_DIR/code-reviewer | awk '{print $NF}')"
 BASE_DIR=$(dirname $SCRIPT_DIR/$SCRIPT_LOCATION)
 
 cp $BASE_DIR/pre-commit $BASE_DIR/git-hooks/pre-commit
-touch whitelist_custom
+touch $BASE_DIR/whitelist_custom
 
 #Empty the variable
 sed -i '' "s?ROOT_CONFIG=\"[^\"][^\"]*\"?ROOT_CONFIG=""?" $BASE_DIR/git-hooks/pre-commit
