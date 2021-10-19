@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# This value is set by install.sh
+# This value is set by code-reviewer
 ROOT_CONFIG=
 
 WHITELIST="$ROOT_CONFIG/whitelist"
