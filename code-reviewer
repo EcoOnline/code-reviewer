@@ -11,6 +11,7 @@ SCRIPT_DIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 SCRIPT_LOCATION="$(ls -l $SCRIPT_DIR/code-reviewer | awk '{print $NF}')"
 BASE_DIR=$(dirname $SCRIPT_DIR/$SCRIPT_LOCATION)
 
+mkdir -p $BASE_DIR/git-hooks
 cp $BASE_DIR/pre-commit $BASE_DIR/git-hooks/pre-commit
 touch $BASE_DIR/whitelist_custom
 

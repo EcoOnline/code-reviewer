@@ -1,4 +1,4 @@
 /vendor
 /.idea
-/git-hooks/pre-commit
+/git-hooks
 whitelist_custom
