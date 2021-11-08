@@ -1,6 +1,6 @@
 #!/bin/sh
 
-read -p "You are about to install a pre-commit hook for EcoOnline packages. Do you want to continue? y/n\n" -n 1 -r
+read -p "You are about to install a pre-commit hook for EcoOnline packages. Do you want to continue? y/n" -n 1 -r
 if [[ ! $REPLY =~ ^[Yy]$ ]]
 then
   echo "\nBye!"
