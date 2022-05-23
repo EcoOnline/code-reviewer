@@ -1,0 +1,13 @@
+openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: Code Reviewer
+  description: This package takes care of running php-cs-fixer for you whenever committing code
+  x-logo:
+    url: 'https://app.ecoonline.com/images/ecoonline_logo.svg'
+  contact:
+    name: Jørgen Solli
+    email: jorgen.solli@ecoonline.com
+externalDocs:
+  description: GitHub repository
+  url: 'https://github.com/EcoOnline/code-reviewer'
