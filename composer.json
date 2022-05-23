@@ -5,5 +5,10 @@
   "require": {
     "friendsofphp/php-cs-fixer": "^3"
   },
-  "bin": ["code-reviewer"]
+  "bin": ["code-reviewer"],
+  "extra": {
+    "maintainer": {
+      "email": "jorgen.solli@ecoonline.com"
+    }
+  }
 }
